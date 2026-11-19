@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galería de imágenes sobre boyaca usando CSS Grid.">
+    <meta name="keywords" content="galería, imágenes, boyaca, campo, HTML, CSS">
+    <meta name="author" content="Darwin Acevedo">
+    <title>Pestañas-proyecto 10</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="contenedor">
+
+        <div class="pestanas">
+            <button class="pestana activa" data-pestana="1">primera pestaña</button>
+            <button class="pestana" data-pestana="2">segunda pestaña</button>
+            <button class="pestana" data-pestana="3">tercera pestaña</button>
+            <button class="pestana" data-pestana="4">cuarta pestaña</button>
+        </div>
+
+        <p>
+            Haz clic en cada pestaña para ver su contenido.
+            La primera pestaña está activa por defecto.
+        </p>
+
+        <div class="contenido">
+            <div class="panel activo" id="panel-1">
+                   Bienvenido a nuestra página. Aquí encontrarás información general.
+            </div>
+
+            <div class="panel" id="panel-2">
+                 Descubre los diferentes servicios que tenemos disponibles para ti
+            </div>
+
+            <div class="panel" id="panel-3">
+               Conoce nuestra historia y nuestros objetivos.
+            </div>
+
+            <div class="panel" id="panel-4">
+                Estamos disponibles para resolver tus dudas.
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
